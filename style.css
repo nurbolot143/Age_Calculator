@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #104d4d;
+  background-image: url("https://www.transparenttextures.com/patterns/food.png");
+  font-family: sans-serif;
+}
+
+.container {
+  text-align: center;
+  width: 500px;
+  margin: 100px auto;
+  background-color: #e8de6a;
+  border-radius: 0 0 35px 35px;
+  /* padding-bottom: 30px; */
+}
+
+.top {
+  background-color: #0a0f07;
+}
+
+.title {
+  color: #e8de6a;
+  padding: 10px 0;
+}
+
+.blocks {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+p {
+  font-size: 30px;
+  margin: 7px 0;
+}
+
+input[type="number"] {
+  height: 50px;
+  width: 110px;
+  padding: 0 10px;
+  font-size: 25px;
+  color: #104d4d;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  background-color: #ebe394;
+}
+
+input[type="number"]:focus {
+  border: 2px solid #164747;
+  border-radius: 3px;
+  outline: none;
+}
+
+input[type="button"] {
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 8px 30px;
+  background-color: #164747;
+  color: #e8de6a;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+input[type="button"]:hover {
+  background-color: #031111;
+}
+
+input[type="button"]:active {
+  background-color: #e8de6a;
+}
+
+#age {
+  margin-top: 30px;
+  padding: 5px 20px 40px 20px;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 40px;
+  color: #113535;
+}
