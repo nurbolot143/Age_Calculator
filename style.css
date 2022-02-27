@@ -9,7 +9,7 @@ body {
 
 .container {
   text-align: center;
-  width: 500px;
+  max-width: 500px;
   margin: 100px auto;
   background-color: #e8de6a;
   border-radius: 0 0 35px 35px;
@@ -28,7 +28,12 @@ body {
 .blocks {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   margin-bottom: 40px;
+}
+
+.block {
+  margin: 0 10px;
 }
 
 p {
@@ -80,4 +85,10 @@ input[type="button"]:active {
   font-weight: 500;
   line-height: 40px;
   color: #113535;
+}
+
+@media (max-width: 320px) {
+  .container {
+    margin-top: 50px;
+  }
 }
